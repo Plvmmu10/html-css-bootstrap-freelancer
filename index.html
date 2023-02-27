@@ -20,34 +20,36 @@
         <!-- HERO SECTION -->
         <section id="hero" class="py-5">
             <div class="container">
-                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-                    <!-- HERO IMG -->
-                    <div class="jumbo">
-                        <img src="./img/avatar.svg" alt="jumbo" class="w-100">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                        <!-- HERO IMG -->
+                        <div class="jumbo">
+                            <img src="./img/avatar.svg" alt="jumbo" class="w-100">
+                        </div>
+    
+                        <h1 class="text-uppercase pt-3">start bootstrap</h1>
+    
+                        <!-- STARS -->
+                        <div class="gl-white-stars d-flex w-50 py-2 align-items-center justify-content-center">
+                            <div class="w-25"></div>
+                            <i class="fa-solid fa-star px-3"></i>
+                            <div class="w-25"></div>
+                        </div>
+    
+                        <!-- HERO LIST -->
+                        <ul class="text-uppercase d-flex justify-content-center align-items-center w-75 ps-0">
+                            <li><a href="#">graphic artist</a></li>
+    
+                            <div class="px-1">-</div>
+    
+                            <li><a href="#">web designer</a></li>
+                            
+                            <div class="px-1">-</div>
+    
+                            <li><a href="#">illustrator</a></li>
+                        </ul>
                     </div>
-
-                    <h1 class="text-uppercase pt-3">start bootstrap</h1>
-
-                    <!-- STARS -->
-                    <div class="gl-white-stars d-flex w-50 py-2 align-items-center justify-content-center">
-                        <div class="w-25"></div>
-                        <i class="fa-solid fa-star px-3"></i>
-                        <div class="w-25"></div>
-                    </div>
-
-                    <!-- HERO LIST -->
-                    <ul class="text-uppercase d-flex justify-content-center align-items-center w-75 ps-0">
-                        <li><a href="#">graphic artist</a></li>
-
-                        <div class="px-1">-</div>
-
-                        <li><a href="#">web designer</a></li>
-                        
-                        <div class="px-1">-</div>
-
-                        <li><a href="#">illustrator</a></li>
-                    </ul>
-                </div>
+                </div>                
             </div>
         </section>
 
@@ -70,7 +72,7 @@
                 
 
                 <!-- Portfolio image list -->
-                <div class="row row-gap-2">
+                <div class="row row-gap-3">
                     <div class="col-sm-12 col-md-6 col-lg-4 ">
                         <img src="./img/cabin.png" alt="cabin" class="w-100 rounded">
                     </div>
@@ -134,7 +136,18 @@
         <!-- CONTACT SECTION -->
         <section id="contact">
             <div class="container">
-                contact
+
+                <!-- Contact title -->
+                <div class="d-flex justify-content-center flex-column align-items-center py-3">
+                    <h2 class="text-uppercase">contact</h2>
+
+                    <!-- STARS -->
+                    <div class="gl-black-stars d-flex w-50 py-2 align-items-center justify-content-center">
+                        <div class="w-25"></div>
+                        <i class="fa-solid fa-star px-3"></i>
+                        <div class="w-25"></div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -144,7 +157,7 @@
         <section id="top-footer" class="py-5">
             <div class="container">
 
-                <div class="row row-gap-1">
+                <div class="row">
                     <!-- Location col -->
                     <div class="col-sm-12 col-md-4 text-center">
                         <h5 class="text-uppercase">location</h5>
@@ -152,27 +165,38 @@
                     </div>
 
                     <!-- Web col -->
-                    <div class="col-sm-12 col-md-4 text-center">
-                        <h5 class="text-uppercase">around the web</h5>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="web-col-position d-flex flex-column align-items-center">
+                            <h5 class="text-uppercase">around the web</h5>
 
                         <!-- Div with social media icons -->
-                        <div class="row gap-2 justify-content-center">
-                            <div class="col-3 rounded-circle border border-light d-flex justify-content-center align-items-center">
-                                <a href="#" class="social-media"><i class="fa-brands fa-facebook-f"></i></a>
+                        <div class="row">
+                            <div class="col-3">
+                                    <a href="#" class="border border-light rounded-circle social-media d-block text-center">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>                             
                             </div>
 
-                            <div class="col-3 rounded-circle border border-light d-flex justify-content-center align-items-center">
-                                <a href="#" class="social-media"><i class="fa-brands fa-facebook"></i></a>
+                            <div class="col-3">
+                                    <a href="#" class="border border-light rounded-circle social-media d-block text-center">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a> 
                             </div>
 
-                            <div class="col-3 rounded-circle border border-light d-flex justify-content-center align-items-center">
-                                <a href="#" class="social-media"><i class="fa-brands fa-facebook"></i></a>
+                            <div class="col-3">
+                                <a href="#" class="border border-light rounded-circle social-media d-block text-center">
+                                    <i class="fa-brands fa-twitter"></i>
+                                 </a>
                             </div>
 
-                            <div class="col-3 rounded-circle border border-light d-flex justify-content-center align-items-center">
-                                <a href="#" class="social-media"><i class="fa-brands fa-facebook"></i></a>
+                            <div class="col-3">
+                                <a href="#" class="border border-light rounded-circle social-media d-block text-center">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                 </a>
                             </div>
                         </div>
+                        </div>
+                        
                     </div>
 
                     <!-- Freelancer col -->
@@ -185,9 +209,11 @@
         </section>
 
         <!-- BOTTOM FOOTER -->
-        <section id="bot-footer">
+        <section id="bot-footer" class="py-3">
             <div class="container">
-                bottom-footer
+                <div class="copyright d-flex justify-content-center align-items-center">
+                    <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019 </p>
+                </div>
             </div>
         </section>
     </footer>
