@@ -60,3 +60,14 @@ ul a{
     text-decoration: none;
     color: var(--white);
 }
+
+/* SOCIAL MEDIA CONFIG */
+.social-media{
+    font-size: 2rem;
+}
+
+/* FREELANCER CONFIG */
+#start-bootstrap{
+    text-decoration: none;
+    color: var(--aqua);
+}
