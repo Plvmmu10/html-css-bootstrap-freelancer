@@ -40,12 +40,12 @@ header, #bot-footer{
     width: 200px;
 }
 
-#hero .gl-stars div{
-    background-color: white;
+.gl-white-stars div{
+    background-color: var(--white);
     height: 2px;
 }
 
-#portfolio .gl-stars div{
+.gl-black-stars div{
     background-color: var(--black);
     height: 2px;
 }
