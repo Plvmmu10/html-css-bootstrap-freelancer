@@ -56,9 +56,18 @@ ul{
     list-style-type: none;
 }
 
-ul a{
+a{
     text-decoration: none;
     color: var(--white);
+}
+
+.small-container{
+    margin: 0 auto;
+}
+
+/* ABOUT BUTTON CONFIG */
+#about button{
+    background-color: var(--aqua);
 }
 
 /* SOCIAL MEDIA CONFIG */
