@@ -40,10 +40,16 @@ header, #bot-footer{
     width: 200px;
 }
 
-.gl-stars div{
+#hero .gl-stars div{
     background-color: white;
     height: 2px;
 }
+
+#portfolio .gl-stars div{
+    background-color: var(--black);
+    height: 2px;
+}
+
 
 /* GENERAL CONFIG */
 ul{
