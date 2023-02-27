@@ -6,3 +6,30 @@
 --light-gray: #3A546D;
 --black: #333333;
 }
+
+/* COLOR SETTINGS */
+
+body{
+    color: white;
+}
+
+header, #bot-footer{
+    background-color: var(--dark-gray);
+}
+
+#hero, #about{
+    background-color: var(--aqua);
+}
+
+#portfolio, #contact{
+    background-color: white;
+}
+
+#top-footer{
+    background-color: var(--light-gray);
+}
+
+#portfolio, #contact{
+    color: var(--black);
+}
+
