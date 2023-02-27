@@ -63,7 +63,10 @@ ul a{
 
 /* SOCIAL MEDIA CONFIG */
 .social-media{
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 10px;
+    color: var(--white);
+    width: 50px;
 }
 
 /* FREELANCER CONFIG */
