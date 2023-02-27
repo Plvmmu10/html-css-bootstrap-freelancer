@@ -50,6 +50,10 @@ header, #bot-footer{
     height: 2px;
 }
 
+/* Navbar config */
+.navbar-brand{
+    color: var(--white);
+}
 
 /* GENERAL CONFIG */
 ul{
