@@ -55,6 +55,13 @@ body{
     color: var(--white);
 }
 
+.navbar-toggler, .navbar-toggler-icon{
+    color: white;
+}
+
+.navbar-toggler{
+    border: 1px solid var(--white);
+}
 /* GENERAL CONFIG */
 ul{
     list-style-type: none;
