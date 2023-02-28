@@ -118,3 +118,11 @@ a{
     opacity: 1;
     cursor: pointer;
 }
+
+/* Contact button config */
+.gl-send{
+    background-color: var(--aqua);
+    color: var(--white);
+    padding: 5px 20px 5px 20px;
+
+}
