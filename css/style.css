@@ -16,7 +16,7 @@ body{
     color: white;
 }
 
-header, #bot-footer{
+.navbar, #bot-footer{
     background-color: var(--dark-gray);
 }
 
